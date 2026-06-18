@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#0a4d1c;
+    color:white;
+}
+
+.banner{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ),
+    url("imagens/selecao.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.banner h1{
+    font-size:50px;
+    color:#ffd700;
+}
+
+.banner p{
+    margin-top:15px;
+    font-size:22px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:#ffd700;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+}
+
+main{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.copa{
+    background:#0f6828;
+    margin:30px 0;
+    padding:25px;
+    border-radius:15px;
+}
+
+.copa h2{
+    color:#ffd700;
+    margin-bottom:15px;
+}
+
+.copa img{
+    width:100%;
+    max-width:700px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+.copa p{
+    line-height:1.8;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#032b0f;
+}
